@@ -6,8 +6,7 @@ const routes: Routes = [
   {
     path : '',
     redirectTo :'login',
-    component :EmployeeLoginComponent
-  },
+pathMatch:'full'  },
   {
     path : 'login',
     component :EmployeeLoginComponent
